@@ -1,4 +1,4 @@
-package userInfo.src;
+package part_2_1userInfo.src;
 
 public class Main {
     public static void main(String[] args){
