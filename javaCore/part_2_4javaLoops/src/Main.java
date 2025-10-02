@@ -47,9 +47,9 @@ public class Main {
 
         System.out.println("\n\nТреугольник\n");
 
-         for(int i = 1;i<=5;i++){
+         for(int i = 1;i<=7;i++){
             // пробели
-            for(int j =1;j<=5 -i;j++){
+            for(int j =1;j<=7 -i;j++){
                 System.out.print(" ");
             }
             //
