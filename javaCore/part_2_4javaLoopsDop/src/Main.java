@@ -52,10 +52,5 @@ public class Main {
         }
         System.out.println("Перевёрнутое число: " + reversed);
 
-        // dop zadanie part 2
-        
-        String result = (n <= num4) ? "true" : "false";
-        System.out.println(result);
-
     }
 }
