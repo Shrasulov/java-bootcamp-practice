@@ -1,34 +1,38 @@
 public class Phone {
-    public String model;
+    private String model;
     private String brand;
-    public double praice;
+    private double price;
     private String color;
-    private int storage;    //память в гб
-    public int ram; //ОЗУ
+    private int storage; // память в ГБ
+    private int ram;     // ОЗУ
     private int id;
 
-    // --- конструктори ---
-
+    // --- Конструкторы ---
     public Phone(String model, String brand) {
         this.model = model;
         this.brand = brand;
     }
-    
+
     public Phone(String model, String brand, int storage, int ram) {
         this.model = model;
         this.brand = brand;
         this.storage = storage;
         this.ram = ram;
     }
-    
-    // --- методы ---
 
+    // --- Методы ---
     public void showInfo() {
-        System.out.println("id = " + id + " brand = " + brand + "    model = " + model + "   praice = " + praice
-                + "    color = " + color + "   storage = " + storage + "  ram = " + ram);
+        System.out.println("Phone info:");
+        System.out.println("ID: " + id);
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Price: " + price);
+        System.out.println("Color: " + color);
+        System.out.println("Storage: " + storage + "GB");
+        System.out.println("RAM: " + ram + "GB");
     }
-    
-    // --- геттеры и сеттеры
+
+    // --- Геттеры и сеттеры ---
     public String getBrand() {
         return brand;
     }
@@ -37,12 +41,51 @@ public class Phone {
         this.brand = brand;
     }
 
-    public void setPraice(int praice) {
-        this.praice = praice;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
-    public double getPraice() {
-        return praice;
+    public double getPrice() {
+        return price;
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getStorage() {
+        return storage;
+    }
+
+    public void setStorage(int storage) {
+        this.storage = storage;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
