@@ -2,6 +2,7 @@ public class Animal {
     String name;
 
     public Animal(String name) {
+        System.out.println();
         this.name = name;
     }
 
@@ -13,4 +14,7 @@ public class Animal {
         System.out.println(name + " спит");
     }
     
+    public void makeSound() {
+        System.out.println(name + " издает звук");
+    }
 }
