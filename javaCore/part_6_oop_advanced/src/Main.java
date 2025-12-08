@@ -13,14 +13,9 @@ public class Main {
         cat.eat();
         cat.sleep();
 
-        Animal s = new Animal("существо");
-        s.eat();
-        s.makeSound();
-
         Animal[] animals={
             new Dog("Рекс"),
-            new Cat("Луиза"),
-            new Animal("Просто зверь")
+            new Cat("Луиза")
         };
 
         for (Animal a : animals) {

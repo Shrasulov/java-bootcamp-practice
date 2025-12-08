@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     String name;
 
     public Animal(String name) {
@@ -14,7 +14,5 @@ public class Animal {
         System.out.println(name + " спит");
     }
     
-    public void makeSound() {
-        System.out.println(name + " издает звук");
-    }
+    public abstract void makeSound();
 }
