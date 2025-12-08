@@ -19,7 +19,7 @@ public class Main {
         };
 
         for (Animal a : animals) {
-            a.makeSound();
+            //a.makeSound();
             a.eat();
             a.sleep();
         }

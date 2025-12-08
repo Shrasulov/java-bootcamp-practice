@@ -1,4 +1,4 @@
-public class Cat extends Animal {
+public class Cat extends Animal implements Voice{
 
     public Cat(String name) {
         super(name);

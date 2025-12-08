@@ -14,5 +14,5 @@ public abstract class Animal {
         System.out.println(name + " спит");
     }
     
-    public abstract void makeSound();
+    //public abstract void makeSound();
 }
